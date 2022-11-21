@@ -23,7 +23,7 @@
             <v-spacer></v-spacer>
             <span class="navbartext">
                 <!-- XXXX: NPM -->
-                Vuefire - XXXX
+                Vuefire - 0772
             </span>
         </v-app-bar>
         <div style="min-height: 100vh !important;">
@@ -55,8 +55,9 @@ export default {
         return {
             drawer: true,
             menus: [
+                {title: 'Card', icon: 'mdi-credit-card', to:'/card'},
                 {title: 'Merchandise', icon: 'mdi-hand-heart-outline', to:'/merchandise'},
-                {title: 'Album', icon: 'mdi-album', to:'/album'},
+                {title: 'Album', icon: 'mdi-album', to:'/album'}
             ],
         }
     }

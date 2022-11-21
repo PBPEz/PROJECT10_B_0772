@@ -27,6 +27,12 @@ const router = new VueRouter ({
                     name: 'AlbumPage',
                     meta: {title: 'VueFire 2022'},
                     component: importView('AlbumPage'),
+                },
+                {
+                    path: '/card',
+                    name: 'CardPage',
+                    meta: {title: 'VueFire 2022'},
+                    component: importView('CardPage'),
                 }
             ]
         }
